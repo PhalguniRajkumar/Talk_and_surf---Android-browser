@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/prev"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="prev"/>
+      <item
+        android:id="@+id/refresh"
+        android:orderInCategory="101"
+        android:showAsAction="always"
+        android:title="refresh"/>
+        <item
+        android:id="@+id/next"
+        android:orderInCategory="102"
+        android:showAsAction="always"
+        android:title="next"/>
+          <item
+        android:id="@+id/bookmark"
+        android:orderInCategory="99"
+        android:showAsAction="always"
+        android:title="bookmark"/>
+
+</menu>
